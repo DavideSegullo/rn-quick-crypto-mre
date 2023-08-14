@@ -23,12 +23,6 @@ dependencies:
   expo-linking:
     specifier: ^5.0.2
     version: 5.0.2(expo@49.0.7)
-  expo-modules-autolinking:
-    specifier: ^1.5.0
-    version: 1.5.0
-  expo-modules-core:
-    specifier: ^1.5.9
-    version: 1.5.9
   expo-splash-screen:
     specifier: ~0.20.5
     version: 0.20.5(expo-modules-autolinking@1.5.0)(expo@49.0.7)
@@ -3645,7 +3639,7 @@ packages:
       '@types/qs': 6.9.7
       expo-constants: 14.4.2(expo@49.0.7)
       invariant: 2.2.4
-      qs: 6.11.0
+      qs: 6.11.2
       url-parse: 1.5.10
     transitivePeerDependencies:
       - expo
@@ -5882,6 +5876,13 @@ packages:
       side-channel: 1.0.4
     dev: false
 
+  /qs@6.11.2:
+    resolution: {integrity: sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==}
+    engines: {node: '>=0.6'}
+    dependencies:
+      side-channel: 1.0.4
+    dev: false
+
   /query-string@5.1.1:
     resolution: {integrity: sha512-gjWOsm2SoGlgLEdAGt7a6slVOk9mGiXmPFMqrEhLQ68rhQuBnpfs3+EmlvqKyxnCo9/PPlF+9MtY02S1aFg+Jw==}
     engines: {node: '>=0.10.0'}
@@ -6978,7 +6979,7 @@ packages:
     resolution: {integrity: sha512-rWS3H04/+mzzJkv0eZ7vEDGiQbgquI1fGfOad6zKvgYQi1SzMmhl7c/DdRGxhaWrVH6z0qWITo8rpnxK/RfEhA==}
     dependencies:
       punycode: 1.4.1
-      qs: 6.11.0
+      qs: 6.11.2
     dev: false
 
   /use-sync-external-store@1.2.0(react@18.2.0):
