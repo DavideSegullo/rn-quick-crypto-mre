@@ -23,6 +23,9 @@ dependencies:
   react-native-quick-crypto:
     specifier: ^0.6.1
     version: 0.6.1(react-native@0.72.3)(react@18.2.0)
+  stream-browserify:
+    specifier: ^3.0.0
+    version: 3.0.0
 
 devDependencies:
   '@babel/core':
