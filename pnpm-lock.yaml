@@ -11,6 +11,9 @@ dependencies:
   expo:
     specifier: ~49.0.7
     version: 49.0.7(@babel/core@7.20.2)
+  expo-splash-screen:
+    specifier: ~0.20.5
+    version: 0.20.5(expo-modules-autolinking@1.5.0)(expo@49.0.7)
   expo-status-bar:
     specifier: ~1.6.0
     version: 1.6.0
@@ -3596,6 +3599,19 @@ packages:
     dependencies:
       compare-versions: 3.6.0
       invariant: 2.2.4
+    dev: false
+
+  /expo-splash-screen@0.20.5(expo-modules-autolinking@1.5.0)(expo@49.0.7):
+    resolution: {integrity: sha512-nTALYdjHpeEA30rdOWSguxn72ctv8WM8ptuUgpfRgsWyn4i6rwYds/rBXisX69XO5fg+XjHAQqijGx/b28+3tg==}
+    peerDependencies:
+      expo: '*'
+    dependencies:
+      '@expo/prebuild-config': 6.2.6(expo-modules-autolinking@1.5.0)
+      expo: 49.0.7(@babel/core@7.20.2)
+    transitivePeerDependencies:
+      - encoding
+      - expo-modules-autolinking
+      - supports-color
     dev: false
 
   /expo-status-bar@1.6.0:
